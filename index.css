@@ -1,0 +1,53 @@
+{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background:#242933;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.formulario {
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+    background: #3c4258 ;
+    border-top: 2px solid #383e52;
+}
+.form-titulo {
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+margin: 0;
+margin-bottom: 20px;
+color: #8c9cbc;
+}
+.form-subtitulos {
+ margin-bottom: 10px;
+}
+.form-subtitulos label {
+    display:block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #8c9cbc;
+}
+
+.form-subtitulos input {
+    width: 100%;
+    border: none;
+}
+.form-boton {
+    background: rgb(106,101,244);
+    color: white;
+    margin: auto;
+    border: black;
+    width: 100%;
+    font-weight: bold;
+    padding: 10px 50px;
+}
+.mensajeerror {
+    color: red;
+    font-weight: bold;
+}
